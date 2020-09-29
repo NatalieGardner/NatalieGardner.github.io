@@ -1,0 +1,79 @@
+.column {
+  float: left;
+  width: 47%;
+  padding-right: 15px;
+  padding-left:15px;
+}
+
+body {
+  background-color: lightgrey;
+}
+
+h1 {
+	color: black;
+	text-align: center;
+	background-color: #525f3b
+;
+	font-size: 50px;
+}
+
+.links {
+	color:white;
+	text-align: center;
+	background-color: black;
+	font-size: 18px;
+}
+
+<style>
+a:link {
+  color: white; 
+  text-decoration: none;
+}
+
+a:visited {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #555;
+  text-decoration: underline;
+}
+
+div {
+  text-align: justify;
+  text-justify: inter-word;
+}
+</style>
+
+
+
+h2 {
+	color: black;
+	font-size: 30px;
+}
+
+img {
+  border: 5px solid #555;
+}
+
+column {
+  padding: 8px;
+}
+
+
+.footer {
+  position: fixed;
+  left: 8px;
+  bottom: 0;
+  width: 100%;
+  background-color: black;
+  color: white;
+  text-align:left;
+  text-indent: 10px;
+ 
+}
+
+@media print {
+  footer {page-break-after: always;}
+}
